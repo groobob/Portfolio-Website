@@ -1,9 +1,21 @@
 import React from "react"
+import About from "./components/About"
+import Commissions from "./components/Commissions"
+import Contacts from "./components/Contacts"
+import Hero from "./components/Hero"
+import Navbar from "./components/Navbar"
+import Projects from "./components/Projects"
 
 function App() {
   
   return (
-    <h1>Nothing to see here...</h1>
+    <div>
+      <Navbar />
+      <Hero />
+      <About />
+      <Projects />
+      <Contacts />
+    </div>
   )
 }
 
