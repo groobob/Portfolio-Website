@@ -1,6 +1,7 @@
 import React from "react"
+import { motion } from "framer-motion"
 
 export default function Contacts()
 {
-    <h1>test</h1>
+
 }

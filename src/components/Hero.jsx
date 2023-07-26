@@ -1,4 +1,5 @@
 import React from "react"
+import { motion } from "framer-motion"
 
 export default function Hero()
 {
@@ -6,7 +7,6 @@ export default function Hero()
         <div className="hero">
             <h1>Welcome to</h1>
             <h2>my website</h2>
-            
         </div>
     )
 }
