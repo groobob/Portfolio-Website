@@ -94,10 +94,16 @@ body {
   color: white;
   overflow: hidden;
   text-indent: 10px;
+  padding-right: 150px;
+}
+
+.about--link {
+  color: #81b8ff;
 }
 
 .projects {
   padding: 50px;
+  margin-bottom: 250px;
 }
 
 .projects--header {
@@ -111,7 +117,6 @@ body {
 .projects--container {
   padding-inline: 200px;
   padding-top: 50px;
-  padding-bottom: 100px;
 }
 
 .card {
