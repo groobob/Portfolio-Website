@@ -75,6 +75,35 @@ body {
   margin-top: 50px;
 }
 
-.about {
-  
+.about{
+  padding: 50px;
+}
+
+.about--header{
+  font-size: 75px;
+  margin-left: 100px;
+  font-weight: 700;
+  color: rgb(243, 170, 101);
+  margin-bottom: 10px;
+}
+
+.about--text {
+  font-size: 30px;
+  margin-left: 30px;
+  font-weight: 500;
+  color: white;
+  overflow: hidden;
+  text-indent: 10px;
+}
+
+.projects {
+  padding: 50px;
+}
+
+.projects--header{
+  font-size: 75px;
+  margin-left: 100px;
+  font-weight: 700;
+  color: rgb(243, 170, 101);
+  margin-bottom: 10px;
 }
