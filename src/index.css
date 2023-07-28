@@ -13,6 +13,36 @@ body {
   margin: 0;
   height: 100%;
   background-color: #e3e4fa;
+  color: white;
+}
+
+.navbar {
+  display: flex;
+  font-family: "REM";
+  padding-block: 10px;
+  background-color: rgb(81, 138, 223);
+}
+
+.navbar--name {
+  margin-right: auto;
+  text-indent: 25px;
+  font-weight: 400;
+}
+
+.navbar--about {
+  padding-inline: 20px;
+}
+
+.navbar--projects {
+  padding-inline: 20px;
+}
+
+.navbar--commissions {
+  padding-inline: 20px;
+}
+
+.navbar--contacts {
+  padding-inline: 20px;
 }
 
 .hero {
@@ -29,6 +59,6 @@ body {
   font-size: 75px;
   line-height: 0;
 
-  background-color: #ebedfa;
+  background-color: #477dcf;
   color: rgb(0, 0, 0);
 }

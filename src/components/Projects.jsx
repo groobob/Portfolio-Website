@@ -5,7 +5,7 @@ export default function Projects()
 {
     return (
         <section className="projects">
-            <h2 className="projects--header">My Stuff</h2>
+            <h2 className="projects--header">My Projects</h2>
             <div className="projects--options"></div>
             <div className="projects--container">
                 {"stuff"}
