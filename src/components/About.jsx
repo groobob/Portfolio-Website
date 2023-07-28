@@ -10,6 +10,8 @@ export default function About()
                 <p className="about--text">I'm currently just a high school student interested in computers and the arts. 
                     More specifically, I mainly enjoy computer science, web development, digital art, and animation.
                     In the future, I hope to make it into the University of Waterloo for computer science :)</p>
+                    
+                <p className="about--text">I hope to learn whatever I find cool and broaden my horizons when it comes to my skills.</p>
                 {/*<img src="image of me here" alt="personal image" /> */}
             </div>
         </section>
