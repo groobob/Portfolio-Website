@@ -4,7 +4,7 @@ import { motion } from "framer-motion"
 export default function Card(props)
 {
     const styles = {
-        backgroundImage: `url(/images/${props.img})`
+        backgroundImage: `url(images/${props.img})`
     }
 
     return (
