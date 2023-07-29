@@ -1,11 +1,21 @@
 import React from "react"
-import { motion } from "framer-motion"
+import { AnimatePresence, motion } from "framer-motion"
 
 export default function About()
 {
     return (
-        <section className="about">
-            <h2 className="about--header">Hi there! I'm Richard Zhang</h2>
+        <motion.section 
+            className="about"
+        >
+            <AnimatePresence>
+                <motion.h2 
+                    className="about--header"
+                    initial={{ opacity: 0 }}
+                    whileInView={{ opacity: 1 }}
+                    transition={{ duration: 1 }}
+                    exit={{ opacity: 0 }}
+                >Hi there! I'm Richard Zhang</motion.h2>
+            </AnimatePresence>
             <div className="about--body">
                 <p className="about--text">I'm currently just a high school student interested in computers and the arts. 
                     More specifically, game development in Unity, web development in React, digital art in Clip Studio Paint, and animation in Aseprite.
@@ -16,6 +26,6 @@ export default function About()
                     For now, my ambitions lie with Blender and FL Studio for music composition.</p>
                 {/*<img src="image of me here" alt="personal image" /> */}
             </div>
-        </section>
+        </motion.section>
     )
 }
