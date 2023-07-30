@@ -204,7 +204,7 @@ body {
 }
 
 .contacts--icons {
-  filter: grayscale(75%);
+  filter: grayscale(10%);
   margin-inline: 1%;
 }
 
