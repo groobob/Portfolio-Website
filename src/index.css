@@ -12,7 +12,7 @@
 body {
   margin: 0;
   height: 100%;
-  background-color: #166ee0;
+  background-color: #ffffff;
 }
 
 .navbar {
@@ -80,6 +80,7 @@ body {
 
 .about {
   padding: 50px;
+  background-color: #166ee0;
 }
 
 .about--header {
@@ -115,6 +116,7 @@ body {
 }
 
 .projects {
+  background-color: #166ee0;
   padding: 50px;
   margin-bottom: 250px;
 }
@@ -166,7 +168,7 @@ body {
 
 .contacts--header {
   font-size: 50px;
-  margin-left: 100px;
+  margin-left: 200px;
   font-weight: 700;
   color: rgb(218, 123, 34);
   margin-bottom: 10px;
@@ -174,12 +176,12 @@ body {
 
 .contacts--text {
   font-size: 20px;
-  margin-left: 50px;
+  margin-left: 150px;
   font-weight: 300;
   color: rgb(220, 236, 255);
   overflow: hidden;
   text-indent: 10px;
-  padding-right: 60vw;
+  padding-right: 50vw;
   margin-bottom: -10px;
 }
 

@@ -1,5 +1,5 @@
 import React from "react"
-import { AnimatePresence, easeIn, motion } from "framer-motion"
+import { AnimatePresence, motion } from "framer-motion"
 
 export default function About()
 {
@@ -11,8 +11,8 @@ export default function About()
             <AnimatePresence>
                 <motion.h2 
                     className="about--header"
-                    initial={{ opacity: 0, x: -200 }}
-                    whileInView={{ opacity: 1, x: 0 }}
+                    initial={{ opacity: 0, x: -200, y: 10}}
+                    whileInView={{ opacity: 1, x: 0, y: 0}}
                     transition={{ duration: 0.7, ease: "easeOut" }}
                     exit={{ opacity: 0 }}
                 >Hi there! I'm Richard Zhang</motion.h2>

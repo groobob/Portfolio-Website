@@ -17,7 +17,7 @@ export default function Card(props)
             whileTap={{ scale: 1.1 }}
             initial={{ opacity: 0, y: 50 }}
             whileInView={{ opacity: 1, y: 0 }}
-            transition={{ ease: "easeOut" }}
+            transition={{ ease: "easeOut", scale: { duration: 0.15 } }}
             exit={{ opacity: 0 }}
         >
 
