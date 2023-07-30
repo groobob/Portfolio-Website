@@ -20,7 +20,6 @@ body {
   top: 0px;
   position: sticky;
   font-family: "REM";
-  padding-block: 10px;
   background-color: rgb(81, 138, 223);
   color: white;
   z-index: 1;
@@ -36,18 +35,27 @@ body {
 
 .navbar--about {
   padding-inline: 20px;
+  padding-block: 10px;
+  border-radius: 10px;
+  
 }
 
 .navbar--projects {
   padding-inline: 20px;
+  padding-block: 10px;
+  border-radius: 10px;
 }
 
 .navbar--commissions {
   padding-inline: 20px;
+  padding-block: 10px;
+  border-radius: 10px;
 }
 
 .navbar--contacts {
   padding-inline: 20px;
+  padding-block: 10px;
+  border-radius: 10px;
 }
 
 .hero {
@@ -78,16 +86,21 @@ body {
   margin-top: 50px;
 }
 
-.about{
+.about {
   padding: 50px;
 }
 
-.about--header{
+.about--header {
   font-size: 90px;
   margin-left: 100px;
   font-weight: 700;
   color: rgb(248, 180, 116);
   margin-bottom: 10px;
+}
+
+.about--container {
+  display: flex;
+  padding-right: 50px;
 }
 
 .about--text {
@@ -98,6 +111,11 @@ body {
   overflow: hidden;
   text-indent: 10px;
   padding-right: 150px;
+}
+
+.about--portrait {
+  margin-top: 30px;
+  border-radius: 25px;
 }
 
 .about--link {
