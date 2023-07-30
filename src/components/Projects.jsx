@@ -14,7 +14,7 @@ export default function Projects()
     ))
 
     return (
-        <section className="projects">
+        <section className="projects" id="projects">
             <motion.h2 
                 className="projects--header"
                 initial={{ opacity: 0, x: -200 }}

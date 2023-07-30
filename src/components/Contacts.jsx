@@ -4,7 +4,7 @@ import { motion } from "framer-motion"
 export default function Contacts()
 {
     return (
-        <section className="contacts">
+        <section className="contacts" id="contacts">
             <h2 className="contacts--header">Get in Contact!</h2>
             <p className="contacts--text">If you would like reach out to me for any business inquiries or if you just wanna talk, here are my contacts!</p>
             <div className="contacts--container">

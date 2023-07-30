@@ -25,6 +25,7 @@ body {
   z-index: 1;
   border-bottom-left-radius: 25px;
   border-bottom-right-radius: 25px;
+  padding-right: 10px;
 }
 
 .navbar--name {
@@ -34,29 +35,19 @@ body {
   padding-block: 10px;
 }
 
-.navbar--about {
-  padding-inline: 20px;
-  padding-block: 10px;
-  border-radius: 10px;
-  
-}
-
-.navbar--projects {
+.navbar--text {
   padding-inline: 20px;
   padding-block: 10px;
   border-radius: 10px;
 }
 
-.navbar--commissions {
-  padding-inline: 20px;
-  padding-block: 10px;
-  border-radius: 10px;
+.navbar--text:hover {
+  background-color: rgb(68, 117, 221);
 }
 
-.navbar--contacts {
-  padding-inline: 20px;
-  padding-block: 10px;
-  border-radius: 10px;
+.navbar--link {
+  color: white;
+  text-decoration: none;
 }
 
 .hero {
@@ -166,7 +157,8 @@ body {
 }
 
 .contacts {
-  padding-block: 50px;
+  padding-top: 50px;
+  padding-bottom: 75px;
   padding-left: 30px;
   color: white;
   background-color: #0a59cf;

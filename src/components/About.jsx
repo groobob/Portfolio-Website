@@ -6,6 +6,7 @@ export default function About()
     return (
         <motion.section 
             className="about"
+            id="about"
         >
             <AnimatePresence>
                 <motion.h2 
@@ -31,7 +32,7 @@ export default function About()
                         transition={{ duration: 0.4, ease: "easeOut" }}
                         exit={{ opacity: 0 }}
                     >I like video games, music, and animation. 
-                    If you would like to know some specifics on what I like, you can check it out <a className="about--link" href="https://docs.google.com/document/d/1mQjjlJGLDYcUABI0hCqKz8ewb_b8Yl7NF73MlYwbocU/edit?usp=sharing">here</a>! (little nerdy I know)</motion.p>
+                    If you would like to know some specifics on what I like, you can check it out <a className="about--link" href="https://docs.google.com/document/d/1mQjjlJGLDYcUABI0hCqKz8ewb_b8Yl7NF73MlYwbocU/edit?usp=sharing" target="_blank">here</a>! (little nerdy I know)</motion.p>
                     <motion.p className="about--text"
                         initial={{ opacity: 0, x: -100 }}
                         whileInView={{ opacity: 1, x: 0 }}
