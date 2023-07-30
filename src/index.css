@@ -31,6 +31,7 @@ body {
   margin-right: auto;
   text-indent: 25px;
   font-weight: 400;
+  padding-block: 10px;
 }
 
 .navbar--about {
@@ -186,7 +187,7 @@ body {
   color: rgb(220, 236, 255);
   overflow: hidden;
   text-indent: 10px;
-  padding-right: 50vw;
+  padding-right: 60vw;
   margin-bottom: -10px;
 }
 
@@ -203,4 +204,20 @@ body {
   font-size: 30px;
   font-family: "REM";
   text-align: center;
+}
+
+.contacts--iconcontainer {
+  display: flex;
+  margin-inline: 20%;
+}
+
+.contacts--icons {
+  filter: grayscale(75%);
+  margin-inline: 1%;
+}
+
+.contacts--caption {
+  margin-inline: 20%;
+  font-size: 15px;
+  font-weight: 300;
 }
