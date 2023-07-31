@@ -17,7 +17,7 @@ body {
 
 .navbar {
   display: flex;
-  top: 0px;
+  top: 0vh;
   position: sticky;
   font-family: "REM";
   background-color: rgb(81, 138, 223);
@@ -25,19 +25,19 @@ body {
   z-index: 1;
   border-bottom-left-radius: 25px;
   border-bottom-right-radius: 25px;
-  padding-right: 10px;
+  padding-right: 0.52vw;
 }
 
 .navbar--name {
   margin-right: auto;
-  text-indent: 25px;
+  text-indent: 1.29vw;
   font-weight: 400;
-  padding-block: 10px;
+  padding-block: 1.07vh;
 }
 
 .navbar--text {
-  padding-inline: 20px;
-  padding-block: 10px;
+  padding-inline: 1.03vw;
+  padding-block: 1.07vh;
   border-radius: 10px;
 }
 
@@ -53,7 +53,7 @@ body {
 .hero {
   width: 100%;
   height: 100vh;
-  margin-top: -80.44px;
+  margin-top: -8.65vh;
 
   display: flex;
   justify-content: center;
@@ -62,7 +62,7 @@ body {
   
   font-family: "REM";
   font-weight: 900;
-  font-size: 75px;
+  font-size: 8.06vh;
   line-height: 0;
 
   background-color: #407edb;
@@ -75,45 +75,44 @@ body {
 
 .hero > h2 {
   font-weight: 600;
-  margin-top: 50px;
+  margin-top: 5.37vh;
 }
 
 .about {
-  padding: 50px;
+  padding-block: 5.37vh;
+  padding-inline: 2.58vw;
   background-color: #166ee0;
+  margin-top: -1px;
 }
 
 .about--header {
-  font-size: 90px;
-  margin-left: 100px;
+  font-size: 9.67vh;
+  margin-left: 5.15vw;
   font-weight: 700;
   color: rgb(248, 180, 116);
-  margin-bottom: 10px;
+  margin-bottom: 1.07vh;
 }
 
 .about--container {
   display: flex;
-  padding-right: 50px;
+  padding-right: 2.58vw;
 }
 
 .about--text {
-  font-size: 30px;
-  margin-left: 50px;
+  font-size: 3.22vh;
+  margin-left: 2.58vw;
   font-weight: 500;
   color: white;
   overflow: hidden;
-  text-indent: 10px;
-  padding-right: 150px;
+  text-indent: 0.52vw;
+  padding-right: 7.73vw;
 }
 
 .about--portrait {
-  margin-top: 30px;
+  margin-top: 3.22vh;
   border-radius: 25px;
-  display: block;
-  max-width: 750px;
-  max-height: 1000px;
-  width: auto;
-  height: auto;
+  height: 500px;
+  aspect-ratio: 3/4;
 }
 
 .about--link {
@@ -122,21 +121,23 @@ body {
 
 .projects {
   background-color: #166ee0;
-  padding: 50px;
-  padding-bottom: 250px;
+  padding-block: 5.37vh;
+  padding-inline: 2.58vw;
+  padding-bottom: 26.85vh;
+  margin-top: -1px;
 }
 
 .projects--header {
-  font-size: 80px;
-  margin-left: 100px;
+  font-size: 8.59vh;
+  margin-left: 5.15vw;
   font-weight: 700;
   color: rgb(240, 161, 88);
-  margin-bottom: 10px;
+  margin-bottom: 1.07vh;
 }
 
 .projects--container {
-  padding-inline: 200px;
-  padding-top: 50px;
+  padding-inline: 10.30vw;
+  padding-top: 5.37vh;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
@@ -149,7 +150,8 @@ body {
   max-width: 300px;
   background-color: rgb(255, 255, 255);
   display: inline-block;
-  margin: 25px;
+  margin-block: 2.69vh;
+  margin-inline: 1.29vw;
   border-radius: 25px;
   background-size: cover;
   background-position: center;
@@ -164,7 +166,7 @@ body {
 
 .card--header {
   text-align: center;
-  font-size: 25px;
+  font-size: 2.69vh;
   color: rgb(252, 137, 30);
   font-family: "REM";
   font-weight: 600;
@@ -173,8 +175,8 @@ body {
 .card--description
 {
   filter: contrast(100%);
-  margin-inline: 20px;
-  font-size: 15px;
+  margin-inline: 1.03vw;
+  font-size: 1.61vh;
   color: white;
   font-weight: 500;
 }
@@ -187,30 +189,31 @@ body {
 }
 
 .contacts {
-  padding-top: 50px;
-  padding-bottom: 75px;
-  padding-left: 30px;
+  padding-top: 5.37vh;
+  padding-bottom: 8.06vh;
+  padding-left: 1.55vw;
   background-color: #0a59cf;
   color: white;
+  margin-top: -1px;
 }
 
 .contacts--header {
-  font-size: 50px;
-  margin-left: 200px;
+  font-size: 5.37vh;
+  margin-left: 10.30vw;
   font-weight: 700;
   color: rgb(218, 123, 34);
-  margin-bottom: 10px;
+  margin-bottom: 1.07vh;
 }
 
 .contacts--text {
-  font-size: 20px;
-  margin-left: 150px;
+  font-size: 2.15vh;
+  margin-left: 7.73vw;
   font-weight: 300;
   color: rgb(220, 236, 255);
   overflow: hidden;
-  text-indent: 10px;
-  padding-right: 50vw;
-  margin-bottom: -10px;
+  text-indent: 0.52vw;
+  padding-right: 2.58vw;
+  margin-bottom: -1.07vh;
 }
 
 .contacts--container {
@@ -223,7 +226,7 @@ body {
 }
 
 .contacts--boxheader {
-  font-size: 30px;
+  font-size: 3.22vh;
   font-family: "REM";
   text-align: center;
 }
@@ -240,6 +243,6 @@ body {
 
 .contacts--caption {
   margin-inline: 20%;
-  font-size: 15px;
+  font-size: 1.61vh;
   font-weight: 300;
 }

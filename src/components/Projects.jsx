@@ -5,14 +5,10 @@ import projectsData from "../projectsData"
 
 export default function Projects()
 {
-    let selection = false;
-
     const cardElements = projectsData.map(item => (
         <Card 
             key={item.id}
             {...item}
-            click={() => handleClick}
-            selection={selection}
         />
     ))
 
