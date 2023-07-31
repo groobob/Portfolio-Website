@@ -17,7 +17,13 @@ export default function Projects()
     ))
 
     return (
-        <section className="projects" id="projects">
+        <motion.section 
+            className="projects" 
+            id="projects"
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            transition={{ duration: 5, delay: 3, ease: "easeOut" }}
+        >
             <motion.h2 
                 className="projects--header"
                 initial={{ opacity: 0, x: -200, y: 10 }}
@@ -29,6 +35,6 @@ export default function Projects()
             <div className="projects--container">
                 {cardElements}
             </div>
-        </section>
+        </motion.section>
     )
 }

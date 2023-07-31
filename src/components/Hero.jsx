@@ -8,7 +8,7 @@ export default function Hero()
             className="hero"
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
-            transition={{ duration: 5, delay: 1, ease: "easeOut" }}
+            transition={{ duration: 7, delay: 1, ease: "easeOut" }}
         >
             <motion.h1
                 

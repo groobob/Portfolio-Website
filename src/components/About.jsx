@@ -7,6 +7,9 @@ export default function About()
         <motion.section 
             className="about"
             id="about"
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            transition={{ duration: 5, delay: 3, ease: "easeOut" }}
         >
             <AnimatePresence>
                 <motion.h2 

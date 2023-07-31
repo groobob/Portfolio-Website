@@ -4,7 +4,13 @@ import { motion } from "framer-motion"
 export default function Contacts()
 {
     return (
-        <section className="contacts" id="contacts">
+        <motion.section 
+            className="contacts" 
+            id="contacts"
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            transition={{ duration: 5, delay: 5, ease: "easeOut" }}
+        >
             <h2 className="contacts--header">Get in Contact!</h2>
             <p className="contacts--text">If you would like reach out to me for any business inquiries or if you just wanna talk, here are my contacts!</p>
             <div className="contacts--container">
@@ -24,6 +30,6 @@ export default function Contacts()
                     <p className="contacts--caption">discord: groobr</p>
                 </div>
             </div>
-        </section>
+        </motion.section>
     )
 }
