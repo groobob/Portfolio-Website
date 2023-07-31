@@ -14,7 +14,7 @@ export default function About()
                     initial={{ opacity: 0, x: -200, y: 10}}
                     whileInView={{ opacity: 1, x: 0, y: 0}}
                     transition={{ duration: 0.7, ease: "easeOut" }}
-                    exit={{ opacity: 0 }}
+                    exit={{ opacity: 0, x: -20000 }}
                 >Hi there! I'm Richard Zhang</motion.h2>
             <div className="about--container">
                 <div className="about--body">
@@ -46,7 +46,7 @@ export default function About()
                 className="about--portrait"
                 initial={{ opacity: 0, x: 50 }}
                 whileInView={{ opacity: 1, x: 0 }}
-                transition={{ duration: 1, ease: "easeOut" }}
+                transition={{ duration: 0.7, ease: "easeOut" }}
                 exit={{ opacity: 0 }}
                 />
             </div>

@@ -109,6 +109,11 @@ body {
 .about--portrait {
   margin-top: 30px;
   border-radius: 25px;
+  display: block;
+  max-width: 750px;
+  max-height: 1000px;
+  width: auto;
+  height: auto;
 }
 
 .about--link {
@@ -118,7 +123,7 @@ body {
 .projects {
   background-color: #166ee0;
   padding: 50px;
-  margin-bottom: 250px;
+  padding-bottom: 250px;
 }
 
 .projects--header {
@@ -155,15 +160,38 @@ body {
   height: 300px;
   object-fit: cover;
   border-radius: 25px;
-  
+}
+
+.card--header {
+  text-align: center;
+  font-size: 25px;
+  color: rgb(252, 137, 30);
+  font-family: "REM";
+  font-weight: 600;
+}
+
+.card--description
+{
+  filter: contrast(100%);
+  margin-inline: 20px;
+  font-size: 15px;
+  color: white;
+  font-weight: 500;
+}
+
+.card--link {
+  display: block;
+  text-align: center;
+  font-weight: 500;
+  color: rgb(81, 138, 223);
 }
 
 .contacts {
   padding-top: 50px;
   padding-bottom: 75px;
   padding-left: 30px;
-  color: white;
   background-color: #0a59cf;
+  color: white;
 }
 
 .contacts--header {

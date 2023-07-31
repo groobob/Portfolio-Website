@@ -5,11 +5,14 @@ import projectsData from "../projectsData"
 
 export default function Projects()
 {
+    let selection = false;
 
     const cardElements = projectsData.map(item => (
         <Card 
             key={item.id}
             {...item}
+            click={() => handleClick}
+            selection={selection}
         />
     ))
 
@@ -20,7 +23,7 @@ export default function Projects()
                 initial={{ opacity: 0, x: -200, y: 10 }}
                 whileInView={{ opacity: 1, x: 0, y: 0 }}
                 transition={{ duration: 0.7, ease: "easeOut" }}
-                exit={{ opacity: 0 }}
+                exit={{ opacity: 0, x: -20000 }}
             >My Projects</motion.h2>
             <div className="projects--options"></div>
             <div className="projects--container">
