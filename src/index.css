@@ -83,6 +83,8 @@ body {
   padding-inline: 2.58vw;
   background-color: #166ee0;
   margin-top: -1px;
+  background-image: url("images/background.png");
+  background-repeat: repeat;
 }
 
 .about--header {
@@ -125,6 +127,8 @@ body {
   padding-inline: 2.58vw;
   padding-bottom: 26.85vh;
   margin-top: -1px;
+  background-image: url("images/background.png");
+  background-repeat: repeat;
 }
 
 .projects--header {
@@ -193,6 +197,8 @@ body {
   padding-inline: 2.58vw;
   background-color: #106be0;
   margin-top: -1px;
+  background-image: url("images/background.png");
+  background-repeat: repeat;
 }
 
 .commissions--header {
