@@ -11,23 +11,72 @@ export default function Contacts()
             animate={{ opacity: 1 }}
             transition={{ duration: 5, delay: 6, ease: "easeOut" }}
         >
-            <h2 className="contacts--header">Get in Contact!</h2>
-            <p className="contacts--text">If you would like reach out to me for any business inquiries or if you just wanna talk, here are my contacts!</p>
+            <motion.h2 
+            className="contacts--header"
+            initial={{ opacity: 0}}
+            whileInView={{ opacity: 1}}
+            transition={{ duration: 1, delay: 0.3, ease: "easeOut" }}
+            >Get in Contact!</motion.h2>
+            <motion.p 
+            className="contacts--text"
+            initial={{ opacity: 0}}
+            whileInView={{ opacity: 1}}
+            transition={{ duration: 1, delay: 0.7, ease: "easeOut" }}
+            >If you would like reach out to me for any business inquiries or if you just wanna talk, here are my contacts!</motion.p>
             <div className="contacts--container">
                 <div className="contacts--box">
-                    <h3 className="contacts--boxheader">Contacts</h3>
+                    <motion.h3 
+                        className="contacts--boxheader"
+                        initial={{ opacity: 0, y: -50 }}
+                        whileInView={{ opacity: 1, y: 0 }}
+                        transition={{ duration: 0.5, delay: 1.5, ease: "easeOut" }}
+                    >Contacts</motion.h3>
                     <div className="contacts--iconcontainer">
-                        <a href="https://github.com/groobob" target="_blank" className="contacts--icons"><img src="images/icons/github.png"/></a>
-                        <a href="https://www.linkedin.com/in/richard-zhang-52705b27b/" target="_blank" className="contacts--icons"><img src="images/icons/linkedin.png"/></a>
+                        <motion.a 
+                            href="https://github.com/groobob" 
+                            target="_blank" 
+                            className="contacts--icons"
+                            initial={{ opacity: 0, y: -50 }}
+                            whileInView={{ opacity: 1, y: 0 }}
+                            transition={{ duration: 0.3, delay: 2.2, ease: "easeOut" }}
+                        ><img src="images/icons/github.png"/></motion.a>
+                        <motion.a 
+                            href="https://www.linkedin.com/in/richard-zhang-52705b27b/" 
+                            target="_blank" 
+                            className="contacts--icons"
+                            initial={{ opacity: 0, y: -50 }}
+                            whileInView={{ opacity: 1, y: 0 }}
+                            transition={{ duration: 0.3, delay: 2.2, ease: "easeOut" }}
+                        ><img src="images/icons/linkedin.png"/></motion.a>
                     </div>
-                    <p className="contacts--caption">business email: richard.zhangonca@gmail.com</p>
+                    <motion.p 
+                        className="contacts--caption"
+                        initial={{ opacity: 0, y: -50 }}
+                        whileInView={{ opacity: 1, y: 0 }}
+                        transition={{ duration: 0.3, delay: 2.4, ease: "easeOut" }}
+                    >business email: richard.zhangonca@gmail.com</motion.p>
                 </div>
                 <div className="contacts--box">
-                    <h3 className="contacts--boxheader">Socials</h3>
+                    <motion.h3 
+                        className="contacts--boxheader"
+                        initial={{ opacity: 0, y: -50 }}
+                        whileInView={{ opacity: 1, y: 0 }}
+                        transition={{ duration: 0.5, delay: 1.5, ease: "easeOut" }}>Socials</motion.h3>
                     <div className="contacts--iconcontainer">
-                    <a href="https://www.instagram.com/groobaer/" target="_blank" className="contacts--icons"><img className="contacts--icons"src="images/icons/instagram.png"/></a>
+                    <motion.a 
+                        href="https://www.instagram.com/groobaer/" 
+                        target="_blank" 
+                        className="contacts--icons"
+                        initial={{ opacity: 0, y: -50 }}
+                        whileInView={{ opacity: 1, y: 0 }}
+                        transition={{ duration: 0.3, delay: 2.2, ease: "easeOut" }}
+                    ><img className="contacts--icons"src="images/icons/instagram.png"/></motion.a>
                     </div>
-                    <p className="contacts--caption">discord: groobr</p>
+                    <motion.p 
+                        className="contacts--caption"
+                        initial={{ opacity: 0, y: -50 }}
+                        whileInView={{ opacity: 1, y: 0 }}
+                        transition={{ duration: 0.3, delay: 2.4, ease: "easeOut" }}>discord: groobr</motion.p>
                 </div>
             </div>
         </motion.section>
