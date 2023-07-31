@@ -120,7 +120,7 @@ body {
 }
 
 .projects {
-  background-color: #166ee0;
+  background-color: #146de0;
   padding-block: 5.37vh;
   padding-inline: 2.58vw;
   padding-bottom: 26.85vh;
@@ -186,6 +186,31 @@ body {
   text-align: center;
   font-weight: 500;
   color: rgb(81, 138, 223);
+}
+
+.commissions {
+  padding-block: 5.37vh;
+  padding-inline: 2.58vw;
+  background-color: #106be0;
+  margin-top: -1px;
+}
+
+.commissions--header {
+  font-size: 9.67vh;
+  margin-left: 5.15vw;
+  font-weight: 700;
+  color: rgb(224, 132, 46);
+  margin-bottom: 1.07vh;
+}
+
+.commissions--text {
+  font-size: 3.22vh;
+  margin-left: 2.58vw;
+  font-weight: 500;
+  color: white;
+  overflow: hidden;
+  text-indent: 0.52vw;
+  padding-right: 7.73vw;
 }
 
 .contacts {

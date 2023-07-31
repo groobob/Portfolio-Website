@@ -18,7 +18,7 @@ export default function Projects()
             id="projects"
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
-            transition={{ duration: 5, delay: 3, ease: "easeOut" }}
+            transition={{ duration: 5, delay: 4, ease: "easeOut" }}
         >
             <motion.h2 
                 className="projects--header"

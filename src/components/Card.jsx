@@ -11,8 +11,6 @@ export default function Card(props)
         backgroundImage: show ? `linear-gradient(rgba(0, 0, 0, 0.8),rgba(0, 0, 0, 0.8)), url(images/${props.img})` : `url(images/${props.img})`
     }
 
-    let scaleMultiplier = 1;
-
     return (
         <motion.div 
             style={styles} 

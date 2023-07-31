@@ -1,5 +1,5 @@
 import React from "react"
-import { AnimatePresence, motion } from "framer-motion"
+import { motion } from "framer-motion"
 
 export default function Hero()
 {
@@ -8,7 +8,7 @@ export default function Hero()
             className="hero"
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
-            transition={{ duration: 7, delay: 1, ease: "easeOut" }}
+            transition={{ duration: 5, delay: 1.5, ease: "easeOut" }}
         >
             <motion.h1
                 

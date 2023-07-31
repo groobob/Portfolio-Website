@@ -21,7 +21,8 @@ export default function About()
                 >Hi there! I'm Richard Zhang</motion.h2>
             <div className="about--container">
                 <div className="about--body">
-                    <motion.p className="about--text"
+                    <motion.p 
+                        className="about--text"
                         initial={{ opacity: 0, x: -100 }}
                         whileInView={{ opacity: 1, x: 0 }}
                         transition={{ duration: 0.4, ease: "easeOut" }}
@@ -29,14 +30,16 @@ export default function About()
                     >I'm currently just a high school student interested in computers and the arts. 
                     More specifically, game development in Unity, web development in React, digital art in Clip Studio Paint, and animation in Aseprite.
                     In the future, I hope to make it into the University of Waterloo for computer science :)</motion.p>
-                    <motion.p className="about--text"
+                    <motion.p 
+                        className="about--text"
                         initial={{ opacity: 0, x: -100 }}
                         whileInView={{ opacity: 1, x: 0 }}
                         transition={{ duration: 0.4, ease: "easeOut" }}
                         exit={{ opacity: 0 }}
                     >I like video games, music, and animation. 
                     If you would like to know some specifics on what I like, you can check it out <a className="about--link" href="https://docs.google.com/document/d/1mQjjlJGLDYcUABI0hCqKz8ewb_b8Yl7NF73MlYwbocU/edit?usp=sharing" target="_blank">here</a>! (little nerdy I know)</motion.p>
-                    <motion.p className="about--text"
+                    <motion.p 
+                        className="about--text"
                         initial={{ opacity: 0, x: -100 }}
                         whileInView={{ opacity: 1, x: 0 }}
                         transition={{ duration: 0.4, ease: "easeOut" }}

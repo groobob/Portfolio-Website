@@ -9,7 +9,7 @@ export default function Contacts()
             id="contacts"
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
-            transition={{ duration: 5, delay: 5, ease: "easeOut" }}
+            transition={{ duration: 5, delay: 6, ease: "easeOut" }}
         >
             <h2 className="contacts--header">Get in Contact!</h2>
             <p className="contacts--text">If you would like reach out to me for any business inquiries or if you just wanna talk, here are my contacts!</p>
