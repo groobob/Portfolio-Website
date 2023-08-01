@@ -1,0 +1,3 @@
+1. Filter system for project cards
+2. Switch over to custom domain
+3. Get background working

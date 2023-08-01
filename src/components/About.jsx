@@ -48,13 +48,13 @@ export default function About()
                     For now, my ambitions lie with Blender and FL Studio for music composition.</motion.p>
                 </div>
                 <motion.img 
-                src="images/other/portrait.png"
-                className="about--portrait"
-                initial={{ opacity: 0, x: 50 }}
-                whileInView={{ opacity: 1, x: 0 }}
-                whileHover={{ scale: 1.25 }}
-                transition={{ duration: 0.7, ease: "easeOut" }}
-                exit={{ opacity: 0 }}
+                    src="images/other/portrait.png"
+                    className="about--portrait"
+                    initial={{ opacity: 0, x: 50 }}
+                    whileInView={{ opacity: 1, x: 0 }}
+                    whileHover={{ scale: 1.25 }}
+                    transition={{ duration: 0.25, ease: "easeOut" }}
+                    exit={{ opacity: 0 }}
                 />
             </div>
             </AnimatePresence>
