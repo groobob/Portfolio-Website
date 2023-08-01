@@ -20,7 +20,7 @@ body {
   top: 0vh;
   position: sticky;
   font-family: "REM";
-  background-color: rgb(81, 138, 223);
+  background: linear-gradient(to right, rgb(118, 159, 219) 0%, rgb(70, 133, 226) 40%, rgb(100, 144, 211) 90%);
   color: white;
   z-index: 1;
   border-bottom-left-radius: 25px;
@@ -65,7 +65,7 @@ body {
   font-size: 8.06vh;
   line-height: 0;
 
-  background-color: #407edb;
+  background: linear-gradient(#407edb 80%, #166ee0);
   color: rgb(0, 0, 0);
 }
 
@@ -85,6 +85,7 @@ body {
   margin-top: -1px;
   background-image: url("images/other/background.png");
   background-repeat: repeat;
+  background-position: bottom 1vh;
 }
 
 .about--header {
@@ -127,7 +128,7 @@ body {
   padding-inline: 2.58vw;
   padding-bottom: 26.85vh;
   margin-top: -1px;
-  background-image: url("images/background.png");
+  background-image: url("images/other/background.png");
   background-repeat: repeat;
 }
 
@@ -197,8 +198,9 @@ body {
   padding-inline: 2.58vw;
   background-color: #106be0;
   margin-top: -1px;
-  background-image: url("images/background.png");
+  background-image: url("images/other/background.png");
   background-repeat: repeat;
+  background-position: top 1vh;
 }
 
 .commissions--header {
@@ -223,7 +225,7 @@ body {
   padding-top: 5.37vh;
   padding-bottom: 8.06vh;
   padding-left: 1.55vw;
-  background-color: #0a59cf;
+  background: linear-gradient(#106be0, #0a59cf 10%);
   color: white;
   margin-top: -1px;
 }
