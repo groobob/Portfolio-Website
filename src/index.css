@@ -22,7 +22,7 @@ body {
   font-family: "REM";
   background: linear-gradient(to right, rgb(118, 159, 219) 0%, rgb(70, 133, 226) 40%, rgb(100, 144, 211) 90%);
   color: white;
-  z-index: 1;
+  z-index: 10;
   border-bottom-left-radius: 25px;
   border-bottom-right-radius: 25px;
   padding-right: 0.52vw;
@@ -53,7 +53,7 @@ body {
 .hero {
   width: 100%;
   height: 100vh;
-  position: relative;
+  margin-top: -8.62943vh;
 
   display: flex;
   justify-content: center;

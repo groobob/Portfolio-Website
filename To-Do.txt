@@ -1,4 +1,5 @@
 1. Filter system for project cards
 2. Switch over to custom domain
 3. Get background working
-4. Separate mobile version of website with if statement in app.jsx
+4. Menu icon for navbar
+5. Separate mobile version of website with if statement in app.jsx
