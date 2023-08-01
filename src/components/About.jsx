@@ -48,7 +48,7 @@ export default function About()
                     For now, my ambitions lie with Blender and FL Studio for music composition.</motion.p>
                 </div>
                 <motion.img 
-                src="images/portrait.png"
+                src="images/other/portrait.png"
                 className="about--portrait"
                 initial={{ opacity: 0, x: 50 }}
                 whileInView={{ opacity: 1, x: 0 }}
