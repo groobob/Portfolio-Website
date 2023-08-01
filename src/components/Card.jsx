@@ -43,6 +43,12 @@ export default function Card(props)
                     initial={{ opacity: 0, y: 10 }}
                     animate={{ opacity: 1, y: 0 }}
                     transition={{ type: "spring", duration: 0.5, ease: "easeIn", delay: 1}}>Check it out</motion.a>}
+                {show && <motion.div 
+                className="card--label"
+                initial={{ opacity: 0 }}
+                animate={{ opacity: 1 }}
+                transition={{ duration: 0.5, ease: "easeIn" }}
+                >{props.type}</motion.div>}
             </div>
         </motion.div>
     )
